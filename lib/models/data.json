@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 69,
+    "articles": [
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Fox Business",
+            "title": "Tilman Fertitta joins bidding for Commanders franchise: report - Fox Business",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiYGh0dHBzOi8vd3d3LmZveGJ1c2luZXNzLmNvbS9zcG9ydHMvdGlsbWFuLWZlcnRpdHRhLWpvaW5zLWJpZGRpbmctZm9yLWNvbW1hbmRlcnMtZnJhbmNoaXNlLXJlcG9ydNIBZGh0dHBzOi8vd3d3LmZveGJ1c2luZXNzLmNvbS9zcG9ydHMvdGlsbWFuLWZlcnRpdHRhLWpvaW5zLWJpZGRpbmctZm9yLWNvbW1hbmRlcnMtZnJhbmNoaXNlLXJlcG9ydC5hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-26T09:40:50Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "NDTV",
+            "title": "Twitter Lays Off More Employees In 8th Round Of Job Cuts Since October: Report - NDTV",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3Lm5kdHYuY29tL3dvcmxkLW5ld3MvdHdpdHRlci1sYXlzLW9mZi1hdC1sZWFzdC01MC1pbi1yZWxlbnRsZXNzLWNvc3QtY3V0cy10aGUtaW5mb3JtYXRpb24tMzgxNTM5ONIBcmh0dHBzOi8vd3d3Lm5kdHYuY29tL3dvcmxkLW5ld3MvdHdpdHRlci1sYXlzLW9mZi1hdC1sZWFzdC01MC1pbi1yZWxlbnRsZXNzLWNvc3QtY3V0cy10aGUtaW5mb3JtYXRpb24tMzgxNTM5OC9hbXAvMQ?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-26T07:39:22Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "KCRA Sacramento",
+            "title": "Tesla driver crashes into Girl Scout stand at Walmart in Granite Bay, arrested for suspicion of driving under influence - KCRA Sacramento",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiUGh0dHBzOi8vd3d3LmtjcmEuY29tL2FydGljbGUvZ3Jhbml0ZS1iYXktdGVzbGEtY3Jhc2gtZ2lybC1zY291dC13YWxtYXJ0LzQzMDc4NDEx0gFUaHR0cHM6Ly93d3cua2NyYS5jb20vYW1wL2FydGljbGUvZ3Jhbml0ZS1iYXktdGVzbGEtY3Jhc2gtZ2lybC1zY291dC13YWxtYXJ0LzQzMDc4NDEx?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-26T02:33:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "KRQE News 13",
+            "title": "Apple Watch ban: Here’s what happens next - KRQE News 13",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiTWh0dHBzOi8vd3d3LmtycWUuY29tL25ld3MvdGVjaG5vbG9neS9hcHBsZS13YXRjaC1iYW4taGVyZXMtd2hhdC1oYXBwZW5zLW5leHQv0gFRaHR0cHM6Ly93d3cua3JxZS5jb20vbmV3cy90ZWNobm9sb2d5L2FwcGxlLXdhdGNoLWJhbi1oZXJlcy13aGF0LWhhcHBlbnMtbmV4dC9hbXAv?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-26T01:58:21Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Reuters.com",
+            "title": "Warren Buffett, in annual letter, stays upbeat and preaches patience - Reuters.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiaGh0dHBzOi8vd3d3LnJldXRlcnMuY29tL2J1c2luZXNzL3dhcnJlbi1idWZmZXR0LWFubnVhbC1sZXR0ZXItc3RheXMtdXBiZWF0LXByZWFjaGVzLXBhdGllbmNlLTIwMjMtMDItMjUv0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-26T00:07:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "HuffPost",
+            "title": "FDA Authorizes First At-Home Test That Can Detect Flu And COVID-19 - HuffPost",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiVGh0dHBzOi8vd3d3Lmh1ZmZwb3N0LmNvbS9lbnRyeS9mZGEtY292aWQtZmx1LWF0LWhvbWUtdGVzdF9uXzYzZmE4OWIzZTRiMGNhYjFmYTJmNzYwMNIBWGh0dHBzOi8vd3d3Lmh1ZmZwb3N0LmNvbS9lbnRyeS9mZGEtY292aWQtZmx1LWF0LWhvbWUtdGVzdF9uXzYzZmE4OWIzZTRiMGNhYjFmYTJmNzYwMC9hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-26T00:03:19Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "The Drive",
+            "title": "Tesla Patent Application for Steel Alloy Aims to Make Cybertruck 'Nearly Indestructible' - The Drive",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMicmh0dHBzOi8vd3d3LnRoZWRyaXZlLmNvbS9uZXdzL3Rlc2xhLXBhdGVudHMtcHJvcHJpZXRhcnktc3RlZWwtYWxsb3ktZGVzaWduLWZvci1uZWFybHktaW1wZW5ldHJhYmxlLWN5YmVydHJ1Y2stYm9kedIBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T23:59:21Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Reuters.com",
+            "title": "Blackstone's Schwarzman received over $1 billion in pay, dividends in 2022 - Reuters.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiamh0dHBzOi8vd3d3LnJldXRlcnMuY29tL2J1c2luZXNzL2JsYWNrc3RvbmVzLXNjaHdhcnptYW4tcmVjZWl2ZWQtb3Zlci0xLWJsbi1wYXktZGl2aWRlbmRzLTIwMjItMjAyMy0wMi0yNS_SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T23:01:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Fox Business",
+            "title": "Australian tourist on Bali vacation has 'mini panic attack' over restaurant bill: 'Very costly mistake' - Fox Business",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3LmZveGJ1c2luZXNzLmNvbS9saWZlc3R5bGUvYXVzdHJhbGlhbi10b3VyaXN0LWJhbGktdmFjYXRpb24taGFzLW1pbmktcGFuaWMtYXR0YWNrLXJlc3RhdXJhbnQtYmlsbNIBcGh0dHBzOi8vd3d3LmZveGJ1c2luZXNzLmNvbS9saWZlc3R5bGUvYXVzdHJhbGlhbi10b3VyaXN0LWJhbGktdmFjYXRpb24taGFzLW1pbmktcGFuaWMtYXR0YWNrLXJlc3RhdXJhbnQtYmlsbC5hbXA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T21:22:24Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "TESLARATI",
+            "title": "Tesla flooded with new invitations from Mexican States vying to host automaker - TESLARATI",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiQ2h0dHBzOi8vd3d3LnRlc2xhcmF0aS5jb20vdGVzbGEtaW52aXRhdGlvbnMtbWV4aWNvLXN0YXRlLW9mZmljaWFscy_SAUdodHRwczovL3d3dy50ZXNsYXJhdGkuY29tL3Rlc2xhLWludml0YXRpb25zLW1leGljby1zdGF0ZS1vZmZpY2lhbHMvYW1wLw?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T21:04:50Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Yahoo Finance",
+            "title": "As demand for Domino's, Papa John's slips, independent pizzerias aren't seeing 'softness in pizza': Slice CEO - Yahoo Finance",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMikwFodHRwczovL2ZpbmFuY2UueWFob28uY29tL25ld3MvYXMtZGVtYW5kLWZvci1kb21pbm9zLXBhcGEtam9obnMtc2xpcHMtaW5kZXBlbmRlbnQtcGl6emVyaWFzLWFyZW50LXNlZWluZy1zb2Z0bmVzcy1pbi1waXp6YS1zbGljZS1jZW8tMjA0OTI1NTY5Lmh0bWzSAZsBaHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9hbXBodG1sL25ld3MvYXMtZGVtYW5kLWZvci1kb21pbm9zLXBhcGEtam9obnMtc2xpcHMtaW5kZXBlbmRlbnQtcGl6emVyaWFzLWFyZW50LXNlZWluZy1zb2Z0bmVzcy1pbi1waXp6YS1zbGljZS1jZW8tMjA0OTI1NTY5Lmh0bWw?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T20:49:39Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Cointelegraph",
+            "title": "U.S. Treasury Janet Yellen calls for 'strong regulatory framework' for crypto activities - Cointelegraph",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMidGh0dHBzOi8vY29pbnRlbGVncmFwaC5jb20vbmV3cy91LXMtdHJlYXN1cnktamFuZXQteWVsbGVuLWNhbGxzLWZvci1zdHJvbmctcmVndWxhdG9yeS1mcmFtZXdvcmstZm9yLWNyeXB0by1hY3Rpdml0aWVz0gF4aHR0cHM6Ly9jb2ludGVsZWdyYXBoLmNvbS9uZXdzL3Utcy10cmVhc3VyeS1qYW5ldC15ZWxsZW4tY2FsbHMtZm9yLXN0cm9uZy1yZWd1bGF0b3J5LWZyYW1ld29yay1mb3ItY3J5cHRvLWFjdGl2aXRpZXMvYW1w?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T20:08:28Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "New York Post ",
+            "title": "Family of billionaire Thomas H. Lee in a 'somber state' - New York Post ",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiU2h0dHBzOi8vbnlwb3N0LmNvbS8yMDIzLzAyLzI1L2ZhbWlseS1vZi1iaWxsaW9uYWlyZS10aG9tYXMtaC1sZWUtaW4tYS1zb21iZXItc3RhdGUv0gFXaHR0cHM6Ly9ueXBvc3QuY29tLzIwMjMvMDIvMjUvZmFtaWx5LW9mLWJpbGxpb25haXJlLXRob21hcy1oLWxlZS1pbi1hLXNvbWJlci1zdGF0ZS9hbXAv?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T20:02:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "New York Post ",
+            "title": "Russian banks say debit cards might stop working due to Western sanctions - New York Post ",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiZmh0dHBzOi8vbnlwb3N0LmNvbS8yMDIzLzAyLzI1L3J1c3NpYW4tYmFua3Mtc2F5LWRlYml0LWNhcmRzLW1heS1zdG9wLXdvcmtpbmctZHVlLXRvLXdlc3Rlcm4tc2FuY3Rpb25zL9IBamh0dHBzOi8vbnlwb3N0LmNvbS8yMDIzLzAyLzI1L3J1c3NpYW4tYmFua3Mtc2F5LWRlYml0LWNhcmRzLW1heS1zdG9wLXdvcmtpbmctZHVlLXRvLXdlc3Rlcm4tc2FuY3Rpb25zL2FtcC8?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T19:54:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "KOIN.com",
+            "title": "Major theater chain warns that shareholders could be wiped out - KOIN.com",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiWWh0dHBzOi8vd3d3LmtvaW4uY29tL25ld3MvbWFqb3ItdGhlYXRlci1jaGFpbi13YXJucy10aGF0LXNoYXJlaG9sZGVycy1jb3VsZC1iZS13aXBlZC1vdXQv0gFdaHR0cHM6Ly93d3cua29pbi5jb20vbmV3cy9tYWpvci10aGVhdGVyLWNoYWluLXdhcm5zLXRoYXQtc2hhcmVob2xkZXJzLWNvdWxkLWJlLXdpcGVkLW91dC9hbXAv?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T19:48:05Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "New York Daily News",
+            "title": "FDA warns of Guillain-Barre syndrome as possible risk of Pfizer's RSV vaccine - New York Daily News",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMijgFodHRwczovL3d3dy5ueWRhaWx5bmV3cy5jb20vbmV3cy9uYXRpb25hbC9ueS1wZml6ZXItcnN2LXZhY2NpbmUtd2FybmluZy1ndWlsbGFpbi1iYXJyZS1zeW5kcm9tZS0yMDIzMDIyNS13ejc1bXNqeG5uZWM1Y2RidjNyZW41eDJiNC1zdG9yeS5odG1s0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T19:22:05Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Cord Cutters News",
+            "title": "Walmart Will Be Closing Underperforming Stores - Cord Cutters News",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiS2h0dHBzOi8vY29yZGN1dHRlcnNuZXdzLmNvbS93YWxtYXJ0LXdpbGwtYmUtY2xvc2luZy11bmRlcnBlcmZvcm1pbmctc3RvcmVzL9IBUWh0dHBzOi8vY29yZGN1dHRlcnNuZXdzLmNvbS93YWxtYXJ0LXdpbGwtYmUtY2xvc2luZy11bmRlcnBlcmZvcm1pbmctc3RvcmVzLz9hbXA9MQ?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T18:51:34Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Al Jazeera English",
+            "title": "Polish refiner says Russia halted pipeline oil supplies to Poland - Al Jazeera English",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LmFsamF6ZWVyYS5jb20vbmV3cy8yMDIzLzIvMjUvcnVzc2lhLWhhbHRzLXBpcGVsaW5lLW9pbC1zdXBwbGllcy10by1wb2xhbmQtcmVmaW5lci1wa24tb3JsZW7SAWtodHRwczovL3d3dy5hbGphemVlcmEuY29tL2FtcC9uZXdzLzIwMjMvMi8yNS9ydXNzaWEtaGFsdHMtcGlwZWxpbmUtb2lsLXN1cHBsaWVzLXRvLXBvbGFuZC1yZWZpbmVyLXBrbi1vcmxlbg?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T18:03:29Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "SpaceNews",
+            "title": "Space Force looks to energize industry with next round of launch contracts - SpaceNews",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiYWh0dHBzOi8vc3BhY2VuZXdzLmNvbS9zcGFjZS1mb3JjZS1sb29rcy10by1lbmVyZ2l6ZS1pbmR1c3RyeS13aXRoLW5leHQtcm91bmQtb2YtbGF1bmNoLWNvbnRyYWN0cy_SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T17:45:11Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Seeking Alpha",
+            "title": "Nvidia, Meta Platforms boost ongoing AI enthusiasm - Seeking Alpha",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiV2h0dHBzOi8vc2Vla2luZ2FscGhhLmNvbS9uZXdzLzM5NDA5MDgtbnZpZGlhLW1ldGEtcGxhdGZvcm1zLWJvb3N0LW9uZ29pbmctYWktZW50aHVzaWFzbdIBAA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-02-25T17:00:00Z",
+            "content": null
+        }
+    ]
+}
