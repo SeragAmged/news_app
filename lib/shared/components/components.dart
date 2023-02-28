@@ -16,7 +16,7 @@ Widget buildArticleBuilder(
           borderRadius: BorderRadius.circular(8),
           image: DecorationImage(
             image: NetworkImage(
-              news[index]['urlToImage']?.toString() ?? errorImage,
+              news[index]['urlToImage']?? errorImage,
             ),
             fit: BoxFit.cover,
           ),

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:http/http.dart' as http;
-import 'package:html/parser.dart' as parser;
 import '../../modules/businesses/businesses_screen.dart';
 import '../../modules/science/science_screen.dart';
 import '../../modules/settings/settings_screen.dart';
@@ -63,12 +61,6 @@ class AppCubit extends Cubit<AppStates> {
       ).then(
         (value) async {
           business = value.data['articles'];
-          var news;
-          for (news in business) {
-            print(news['url']);
-            news['urlToImage'] = await getFirstImageUrl(news['url']);
-          }
-
           emit(AppGetBusinessSuccessState());
         },
       ).catchError(
@@ -125,24 +117,6 @@ class AppCubit extends Cubit<AppStates> {
       );
     } else {
       emit(AppGetScienceSuccessState());
-    }
-  }
-
-  Future<String?> getFirstImageUrl(String url) async {
-    final response = await http.get(Uri.parse(url));
-    if (response.statusCode == 200) {
-      final document = parser.parse(response.body);
-      print(document.outerHtml);
-      final imgElements = document.getElementsByTagName('img');
-      if (imgElements.isNotEmpty) {
-        final imgElement = imgElements.first;
-        final imgUrl = imgElement.attributes['src'];
-        return imgUrl;
-      } else {
-        throw Exception('No img elements found in HTML document');
-      }
-    } else {
-      throw Exception('Failed to load HTML document');
     }
   }
 }
