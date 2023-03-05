@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:news_app/shared/Bloc/NewsCubit.dart';
-import 'package:news_app/shared/Bloc/NewsStates.dart';
 import 'package:news_app/shared/cubit/cubit.dart';
 import 'package:news_app/shared/cubit/states.dart';
 import '../../shared/network/remote/dio_helper.dart';
@@ -20,8 +18,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => NewsAppCubit(),
-      child: BlocConsumer<NewsAppCubit, NewsAppStates>(
+      create: (context) => AppCubit()..getBusinessNews(),
+      child: BlocConsumer<AppCubit, AppStates>(
         listener: (context, state) {},
         builder: (context, state) {
           return MaterialApp(
@@ -29,7 +27,8 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             theme: appTheme(),
             darkTheme: appDarkTheme(),
-            themeMode:  NewsAppCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
+            themeMode:
+                AppCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
             home: HomeLayout(),
           );
         },

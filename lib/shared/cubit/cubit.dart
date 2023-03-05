@@ -3,13 +3,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../modules/businesses/businesses_screen.dart';
 import '../../modules/science/science_screen.dart';
 import '../../modules/sports/sports_screen.dart';
-import '../Bloc/NewsStates.dart';
 import '../cubit/states.dart';
 import '../network/remote/dio_helper.dart';
 
 class AppCubit extends Cubit<AppStates> {
   AppCubit() : super(AppInitialState());
-
   static AppCubit get(context) => BlocProvider.of(context);
 
   int currentIndex = 0;
@@ -39,21 +37,14 @@ class AppCubit extends Cubit<AppStates> {
     //   label: 'settings',
     // ),
   ];
-  
+  bool isDark = false;
+  void changeMode() {
+    isDark = !isDark;
+    print(isDark);
+    emit(AppChangeModeState());
+  }
 
-  // void darkMode() {
-  //   if (isDark == false) {
-  //     isDark = true;
-  //   }
-  //   print(isDark);
-  //   emit(AppDarkModeState());
-  // }void lightMode() {
-  //   if (isDark == true) {
-  //     isDark = false;
-  //   }
-  //   print(isDark);
-  //   emit(AppLightModeState());
-  // }
+
 
   void changeNavBarState(index) {
     currentIndex = index;
@@ -138,6 +129,4 @@ class AppCubit extends Cubit<AppStates> {
       emit(AppGetScienceSuccessState());
     }
   }
-
-  void changeMode() {}
 }

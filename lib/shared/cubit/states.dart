@@ -20,6 +20,5 @@ class AppGetScienceErrorState extends AppStates {}
 class AppScienceLoadingState extends AppStates {}
 
 //modes
-// class AppChangeModeState extends AppStates {}
-// class AppDarkModeState extends AppStates {}
-// class AppLightModeState extends AppStates {}
+class AppChangeModeState extends AppStates {}
+

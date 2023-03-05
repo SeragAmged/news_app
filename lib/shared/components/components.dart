@@ -1,6 +1,7 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 
+import '../cubit/cubit.dart';
 import 'constants.dart';
 
 Widget buildArticleBuilder(
@@ -33,7 +34,12 @@ Widget buildArticleBuilder(
               children: [
                 Text(
                   news[index]['title'],
-                  style: Theme.of(context).textTheme.bodyLarge,
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color:AppCubit.get(context).isDark ? Colors.white:Colors.black,
+                  ),
+                  // Theme.of(context).textTheme.bodyLarge,
                   overflow: TextOverflow.ellipsis,
                   maxLines: 3,
                 ),
@@ -65,9 +71,7 @@ Widget separatorBuilder() {
 
 Widget newsBuilder({required List news}) {
   return GestureDetector(
-    onHorizontalDragStart: (details) {
-      
-    },
+    onHorizontalDragStart: (details) {},
     child: ConditionalBuilder(
       condition: news.isNotEmpty,
       builder: (context) => ListView.separated(
