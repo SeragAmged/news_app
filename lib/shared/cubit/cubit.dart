@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../modules/businesses/businesses_screen.dart';
 import '../../modules/science/science_screen.dart';
-import '../../modules/settings/settings_screen.dart';
 import '../../modules/sports/sports_screen.dart';
+import '../Bloc/NewsStates.dart';
 import '../cubit/states.dart';
 import '../network/remote/dio_helper.dart';
 
 class AppCubit extends Cubit<AppStates> {
   AppCubit() : super(AppInitialState());
+
   static AppCubit get(context) => BlocProvider.of(context);
 
   int currentIndex = 0;
@@ -17,7 +18,7 @@ class AppCubit extends Cubit<AppStates> {
     BusinessesScreen(),
     SportsScreen(),
     ScienceScreen(),
-    SettingsScreen(),
+    // SettingsScreen(),
   ];
 
   List<BottomNavigationBarItem> navBarItems = const [
@@ -33,14 +34,32 @@ class AppCubit extends Cubit<AppStates> {
       icon: Icon(Icons.science_outlined),
       label: 'Science News',
     ),
-    BottomNavigationBarItem(
-      icon: Icon(Icons.settings),
-      label: 'settings',
-    ),
+    // BottomNavigationBarItem(
+    //   icon: Icon(Icons.settings),
+    //   label: 'settings',
+    // ),
   ];
+  
+
+  // void darkMode() {
+  //   if (isDark == false) {
+  //     isDark = true;
+  //   }
+  //   print(isDark);
+  //   emit(AppDarkModeState());
+  // }void lightMode() {
+  //   if (isDark == true) {
+  //     isDark = false;
+  //   }
+  //   print(isDark);
+  //   emit(AppLightModeState());
+  // }
 
   void changeNavBarState(index) {
     currentIndex = index;
+    if (index == 0) {
+      getBusinessNews();
+    }
     if (index == 1) {
       getSportsNews();
     }
@@ -119,4 +138,6 @@ class AppCubit extends Cubit<AppStates> {
       emit(AppGetScienceSuccessState());
     }
   }
+
+  void changeMode() {}
 }

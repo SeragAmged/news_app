@@ -53,5 +53,8 @@
         "pubspec.lock": true,
         "**\\*.lock": true
     },
-    "explorerExclude.backup": {}
+    "explorerExclude.backup": {},
+    "cSpell.words": [
+        "hexcolor"
+    ]
 }
