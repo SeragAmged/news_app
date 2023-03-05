@@ -27,47 +27,33 @@ ThemeData appTheme() => ThemeData(
         unselectedItemColor: Colors.black54,
         showUnselectedLabels: true,
       ),
-      textTheme: const TextTheme(
-        bodyLarge: TextStyle(
-          fontSize: 18,
-          fontWeight: FontWeight.bold,
-          color: Colors.black,
-        ),
-      ),
     );
 
 ThemeData appDarkTheme() => ThemeData(
       primaryColor: Colors.deepOrange,
       primarySwatch: Colors.deepOrange,
-      scaffoldBackgroundColor: HexColor("333739"),
-      appBarTheme: AppBarTheme(
+      scaffoldBackgroundColor: Colors.black45,
+      appBarTheme: const AppBarTheme(
         systemOverlayStyle: SystemUiOverlayStyle(
-          statusBarColor: HexColor("333739"),
+          statusBarColor: Colors.black45,
           statusBarIconBrightness: Brightness.light,
         ),
         elevation: 0.0,
-        color: HexColor("333739"),
-        titleTextStyle: const TextStyle(
+        color: Colors.black45,
+        titleTextStyle:  TextStyle(
           color: Colors.white,
           fontSize: 20,
           fontWeight: FontWeight.bold,
         ),
-        iconTheme: const IconThemeData(
+        iconTheme:  IconThemeData(
           color: Colors.white,
         ),
       ),
-      bottomNavigationBarTheme: BottomNavigationBarThemeData(
+      bottomNavigationBarTheme: const BottomNavigationBarThemeData(
         type: BottomNavigationBarType.fixed,
-        backgroundColor: HexColor("333739"),
+        backgroundColor: Colors.black45,
         selectedItemColor: Colors.deepOrange,
         unselectedItemColor: Colors.grey,
         showUnselectedLabels: true,
-      ),
-      textTheme: const TextTheme(
-        bodyLarge: TextStyle(
-          fontSize: 18,
-          fontWeight: FontWeight.bold,
-          color: Colors.white,
-        ),
       ),
     );
