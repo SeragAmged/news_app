@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:news_app/modules/search/search_screen.dart';
+import 'package:news_app/shared/components/components.dart';
 import '../shared/cubit/cubit.dart';
 import '../shared/cubit/states.dart';
 
@@ -23,7 +25,9 @@ class HomeLayout extends StatelessWidget {
             titleSpacing: 15,
             actions: [
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+                  navigateTo(context, SearchScreen());
+                },
                 icon: const Icon(Icons.search),
               ),
               IconButton(
@@ -34,11 +38,7 @@ class HomeLayout extends StatelessWidget {
               ),
             ],
           ),
-          body:
-              // PageView(
-              //   children: cubit.screens,
-              // ),
-              cubit.screens[cubit.currentIndex],
+          body: cubit.screens[cubit.currentIndex],
           bottomNavigationBar: BottomNavigationBar(
             currentIndex: cubit.currentIndex,
             items: cubit.navBarItems,

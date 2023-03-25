@@ -1,6 +1,6 @@
 {
     "files.exclude": {
-        "**/.git": false,
+        "**/.git": true,
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
@@ -35,9 +35,9 @@
         "**\\.metadata": true,
         ".metadata": true,
         "**\\analysis_options.yaml": true,
-        "*.yaml": false,
+        "*.yaml": true,
         "analysis_options.yaml": true,
-        "**\\*.yaml": false,
+        "**\\*.yaml": true,
         "**\\.gitignore": true,
         ".gitignore": true,
         "**\\news_app.iml": true,
@@ -56,5 +56,6 @@
     "explorerExclude.backup": {},
     "cSpell.words": [
         "hexcolor"
-    ]
+    ],
+    "hide-files.files": []
 }

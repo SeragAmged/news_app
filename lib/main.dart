@@ -2,28 +2,39 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/shared/cubit/cubit.dart';
 import 'package:news_app/shared/cubit/states.dart';
+import 'package:news_app/shared/network/local/cache_helper.dart';
 import '../../shared/network/remote/dio_helper.dart';
 import '../layout/home_layout.dart';
 import '../shared/bloc_observer.dart';
 import '../styles/styles.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = MyBlocObserver();
   DioHelper.init();
-  runApp(const MyApp());
+  await CacheHelper.init();
+
+  bool isDark = CacheHelper.getMode(key: 'isDark') ?? false;
+  runApp(MyApp(isDark));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  final bool isDark;
+  const MyApp(this.isDark, {super.key});
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => AppCubit()..getBusinessNews(),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(
+            create: (context) => AppCubit()
+              ..getBusinessNews()
+              ..changeMode(fromShared: isDark)),
+      ],
       child: BlocConsumer<AppCubit, AppStates>(
         listener: (context, state) {},
         builder: (context, state) {
           return MaterialApp(
-            title: 'Flutter Demo',
+            title: 'News App',
             debugShowCheckedModeBanner: false,
             theme: appTheme(),
             darkTheme: appDarkTheme(),

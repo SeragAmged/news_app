@@ -40,7 +40,9 @@ dependencies:
   html: ^0.15.1
   http: ^0.13.5
   intl: null
+  shared_preferences: ^2.0.18
   sqflite: null
+  webview_flutter: ^4.0.7
 
 dev_dependencies:
 

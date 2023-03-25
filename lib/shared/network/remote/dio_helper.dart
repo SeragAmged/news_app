@@ -15,14 +15,24 @@ class DioHelper {
   }
 
   static Future<Response> get({
-   required String category,
-   String country = 'eg'
-  }) async =>
+    required String category,
+    String country = 'eg',
+  }) async {
+    return await dio.get(
+      "v2/top-headlines/",
+      queryParameters: {
+        'country': country,
+        'category': category,
+        'apikey': apikey,
+      },
+    );
+  }
+
+  static Future<Response> getSearch({required String value}) async =>
       await dio.get(
-         "v2/top-headlines/",
-        queryParameters:  {
-          'country': country,
-          'category': category,
+        "v2/everything/",
+        queryParameters: {
+          'q': value,
           'apikey': apikey,
         },
       );

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:news_app/shared/network/local/cache_helper.dart';
 import '../../modules/businesses/businesses_screen.dart';
 import '../../modules/science/science_screen.dart';
 import '../../modules/sports/sports_screen.dart';
@@ -32,19 +33,7 @@ class AppCubit extends Cubit<AppStates> {
       icon: Icon(Icons.science_outlined),
       label: 'Science News',
     ),
-    // BottomNavigationBarItem(
-    //   icon: Icon(Icons.settings),
-    //   label: 'settings',
-    // ),
   ];
-  bool isDark = false;
-  void changeMode() {
-    isDark = !isDark;
-    print(isDark);
-    emit(AppChangeModeState());
-  }
-
-
 
   void changeNavBarState(index) {
     currentIndex = index;
@@ -60,8 +49,22 @@ class AppCubit extends Cubit<AppStates> {
     emit(AppChangeNavBarState());
   }
 
-  List<dynamic> business = [];
+  bool isDark = false;
+  void changeMode({bool? fromShared}) {
+    if (fromShared != null) {
+      isDark = fromShared;
+      emit(AppChangeModeState());
+    } else {
+      isDark = !isDark;
+      CacheHelper.putMode(key: 'isDark', value: isDark).then(
+        (value) {
+          emit(AppChangeModeState());
+        },
+      );
+    }
+  }
 
+  List<dynamic> business = [];
   void getBusinessNews() {
     emit(AppBusinessLoadingState());
 
@@ -75,7 +78,6 @@ class AppCubit extends Cubit<AppStates> {
         },
       ).catchError(
         (e) {
-          print(e);
           emit(AppGetBusinessErrorState());
         },
       );
@@ -85,7 +87,6 @@ class AppCubit extends Cubit<AppStates> {
   }
 
   List<dynamic> sports = [];
-
   void getSportsNews() {
     emit(AppSportsLoadingState());
     if (sports.isEmpty) {
@@ -98,7 +99,6 @@ class AppCubit extends Cubit<AppStates> {
         },
       ).catchError(
         (e) {
-          print(e);
           emit(AppGetSportsErrorState());
         },
       );
@@ -108,7 +108,6 @@ class AppCubit extends Cubit<AppStates> {
   }
 
   List<dynamic> science = [];
-
   void getScienceNews() {
     emit(AppScienceLoadingState());
     if (science.isEmpty) {
@@ -121,12 +120,28 @@ class AppCubit extends Cubit<AppStates> {
         },
       ).catchError(
         (e) {
-          print(e);
           emit(AppGetScienceErrorState());
         },
       );
     } else {
       emit(AppGetScienceSuccessState());
     }
+  }
+
+  List<dynamic> search = [];
+  void getSearchNews(String searchValue) {
+    emit(AppSearchLoadingState());
+    DioHelper.getSearch(
+      value: searchValue,
+    ).then(
+      (value) {
+        search = value.data['articles'];
+        emit(AppGetSearchSuccessState());
+      },
+    ).catchError(
+      (e) {
+        emit(AppGetSearchErrorState());
+      },
+    );
   }
 }

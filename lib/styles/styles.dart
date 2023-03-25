@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:hexcolor/hexcolor.dart';
 
 ThemeData appTheme() => ThemeData(
       primaryColor: Colors.deepOrange,
@@ -40,12 +39,12 @@ ThemeData appDarkTheme() => ThemeData(
         ),
         elevation: 0.0,
         color: Colors.black45,
-        titleTextStyle:  TextStyle(
+        titleTextStyle: TextStyle(
           color: Colors.white,
           fontSize: 20,
           fontWeight: FontWeight.bold,
         ),
-        iconTheme:  IconThemeData(
+        iconTheme: IconThemeData(
           color: Colors.white,
         ),
       ),
