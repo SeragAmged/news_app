@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/shared/cubit/cubit.dart';
@@ -8,9 +10,17 @@ import '../layout/home_layout.dart';
 import '../shared/bloc_observer.dart';
 import '../styles/styles.dart';
 
+class MyHttpOverrides extends HttpOverrides{
+  @override
+  HttpClient createHttpClient(SecurityContext ? context){
+    return super.createHttpClient(context)
+      ..badCertificateCallback = (X509Certificate cert, String host, int port)=> true;
+  }
+}
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  Bloc.observer = MyBlocObserver();
+  // Bloc.observer = MyBlocObserver();
   DioHelper.init();
   await CacheHelper.init();
 

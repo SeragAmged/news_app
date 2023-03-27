@@ -29,19 +29,12 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  bloc: ^8.1.1
   conditional_builder_null_safety: ^0.0.6
-  cupertino_icons: ^1.0.2
   dio: ^5.0.1
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.1
-  hexcolor: ^3.0.1
-  html: ^0.15.1
-  http: ^0.13.5
-  intl: null
   shared_preferences: ^2.0.18
-  sqflite: null
   webview_flutter: ^4.0.7
 
 dev_dependencies:
