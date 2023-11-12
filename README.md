@@ -1,18 +1,46 @@
-# news_app
+# bmi-app - BMI Calculator
 
-A new Flutter project.
+bmi-app is a simple Flutter application that allows users to browse news with 3 categories bassness, sports & science and searching for what you want
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Dark mode
+- light mode
+- webview
+- Search for desired news
+- Categorized news
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+light mode|dark mode
+:-------------------------:|:-------------------------:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# news_app
-# news_app
+Search|webview
+:-------------------------:|:-------------------------:
+<br>
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/SeragAmged/news_app.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd news-app
+```
+
+3. Install the required dependencies:
+
+```bash
+flutter pub get
+```
+
+4. Run the app on an emulator or connected device:
+
+```bash
+flutter run
+```

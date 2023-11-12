@@ -16,7 +16,7 @@ class DioHelper {
 
   static Future<Response> get({
     required String category,
-    String country = 'eg',
+    String country = 'us',
   }) async {
     return await dio.get(
       "v2/top-headlines/",

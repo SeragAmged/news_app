@@ -7,14 +7,14 @@ import 'package:news_app/shared/cubit/states.dart';
 import 'package:news_app/shared/network/local/cache_helper.dart';
 import '../../shared/network/remote/dio_helper.dart';
 import '../layout/home_layout.dart';
-import '../shared/bloc_observer.dart';
 import '../styles/styles.dart';
 
-class MyHttpOverrides extends HttpOverrides{
+class MyHttpOverrides extends HttpOverrides {
   @override
-  HttpClient createHttpClient(SecurityContext ? context){
+  HttpClient createHttpClient(SecurityContext? context) {
     return super.createHttpClient(context)
-      ..badCertificateCallback = (X509Certificate cert, String host, int port)=> true;
+      ..badCertificateCallback =
+          (X509Certificate cert, String host, int port) => true;
   }
 }
 
@@ -36,9 +36,10 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider(
-            create: (context) => AppCubit()
-              ..getBusinessNews()
-              ..changeMode(fromShared: isDark)),
+          create: (context) => AppCubit()
+            ..getBusinessNews()
+            ..changeMode(fromShared: isDark),
+        ),
       ],
       child: BlocConsumer<AppCubit, AppStates>(
         listener: (context, state) {},
@@ -57,4 +58,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-// businesses
