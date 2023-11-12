@@ -1,6 +1,6 @@
-# bmi-app - BMI Calculator
+# news-app - BMI Calculator
 
-bmi-app is a simple Flutter application that allows users to browse news with 3 categories bassness, sports & science and searching for what you want
+news-app is a simple Flutter application that allows users to browse news with 3 categories bassness, sports & science and searching for what you want
 
 ## Features
 
